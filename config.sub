@@ -329,6 +329,10 @@ case $basic_machine in
 	c6x)
 		basic_machine=tic6x-unknown
 		;;
+	ds2)
+		basic_machine=mipsisa32el-unknown
+		os=-none
+		;;
 	leon|leon[3-9])
 		basic_machine=sparc-$basic_machine
 		;;
